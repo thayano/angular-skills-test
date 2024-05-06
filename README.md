@@ -11,7 +11,7 @@ Este é um projeto desenvolvido utilizando Docker, Node.js versão 10 e Angular 
 3. Execute o seguinte comando para construir a imagem e o container.
     ```bash
     docker-compose build 
-    docker compose up -d
+    docker-compose up -d
     ```
 
 4. Após a execução, acesse o aplicativo em `localhost:4200` pelo navegador.
