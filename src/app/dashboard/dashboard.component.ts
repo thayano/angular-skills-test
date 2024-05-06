@@ -7,13 +7,17 @@ import { HttpClient } from '@angular/common/http';
   styleUrls: ['./dashboard.component.css']
 })
 export class DashboardComponent implements OnInit {
-
+  loading = false;
   cards: Array<any>;
 
   constructor(private httpClient: HttpClient) { }
 
   ngOnInit() {
-    this.httpClient.get('/api/skills').subscribe((ret: Array<any>) => this.cards = ret);
+    this.loading = true;
+    this.httpClient.get('/api/skills').subscribe((ret: Array<any>) => {
+      this.cards = ret;
+      this.loading = false;
+    });
   }
 
 }

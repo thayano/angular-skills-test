@@ -1,4 +1,29 @@
+
+
 p {
   font-family: Lato;
 }
 
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 100px;
+  height: 30px;
+  border-radius: 1rem;
+  margin-bottom: 10px;
+  color: #6b6b6b;
+}
+
+.name{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:10px;
+}
+
+.icon:hover{
+  fill: #E0E4EA;
+  font-size: 18px;
+  cursor: pointer;
+}

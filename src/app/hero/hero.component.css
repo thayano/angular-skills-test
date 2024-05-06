@@ -1,0 +1,34 @@
+.hero {
+  background: rgb(46,39,57);
+  background: linear-gradient(0deg, rgb(23, 20, 29) 0%, rgba(17,17,17,1) 100%); 
+  text-align: center;
+  color: #d8d8d8;
+  height: 400px;
+  margin-bottom: 100px;
+}
+
+.gradient {
+  background: rgb(160,121,251);
+  background: linear-gradient(90deg, rgba(160,121,251,1) 0%, rgba(253,165,150,1) 35%, rgba(248,237,191,1) 100%); 
+  color: black;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+p {
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.bgt{
+  font-size: 12px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: 0.5px solid #8f8f8f;
+}
+
+.hero p {
+  margin-bottom: 5px; 
+}

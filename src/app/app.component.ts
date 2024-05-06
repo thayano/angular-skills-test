@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent  {
   name = 'Angular';
+
+  openGitHub(){
+    const gitHubUrl = 'https://github.com/thayano';
+    window.open(gitHubUrl, '_blank');
+  }
 }
